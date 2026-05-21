@@ -6,6 +6,7 @@
 #include "magics.h"
 #include <cstring>
 #include <string>
+#include <windows.h>
 #include <thread>
 #include <atomic>
 #include <mutex>
@@ -21,6 +22,7 @@ struct Magic{
     int shift;
     uint64_t magic,mask;
 
+    
 };
 struct Undo{
     uint64_t white_pawns;
@@ -2612,7 +2614,11 @@ int main() {
     std::cout<<"Start"<<endl;
     Board board;
     board.initBoard();
-
+ SetConsoleOutputCP(CP_UTF8);
+HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+DWORD dwMode = 0;
+GetConsoleMode(hOut, &dwMode);
+SetConsoleMode(hOut, dwMode | ENABLE_VIRTUAL_TERMINAL_PROCESSING);
     //board.initMagics(13,11);
     //board.printMagics();
     //board.initMagicNumsAndShifts();
