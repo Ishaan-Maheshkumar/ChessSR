@@ -53,4 +53,4 @@ Symbolic Regrression is the proccess of finding and merging formulas, with value
 (int)(((((((material_balance() + 48.968533) / (phase() / 0.29228073)) + (((pawn_psqt_diff() + ((knight_psqt_diff() + bishop_psqt_diff()) / 0.61293954)) / phase()) + material_balance())) - (turn * -355.7223)) + pawn_advancement_diff())+simpleEval())/2);
 
 
-This kind of program reveals what stockfish thinks, with enoug training, it is possible to replicate stockfish evals to 90+% and be able to understand how it plays because of the formula.
+This kind of program reveals what stockfish thinks, with enough training, it is possible to replicate stockfish evals to 90+% and be able to understand how it plays because of the formula.
