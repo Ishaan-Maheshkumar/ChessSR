@@ -15,7 +15,9 @@ Default mode is set to normal, hand crafted evaluation, in order to change it to
 Credit to a friend for allowing me to train on their server!
 
 Let me know if you have any questions!!!
-# Depth is super low as of now to begin with, if you want to see max preformance you must increase it. (To prevent any SUPER OLD devices to crash).
+
+
+***Depth is super low as of now to begin with, if you want to see max preformance you must increase it. (To prevent any SUPER OLD devices to crash).***
 
 
 
