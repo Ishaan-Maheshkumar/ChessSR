@@ -13,3 +13,5 @@ IMPORTANT: UI only works on linux, it can work on windows with a few more lines,
 Default mode is set to normal, hand crafted evaluation, in order to change it to Symbolic, simply change evaluate function to use SymbolicEval instead of SimpleEval (I will make it more user friendly soon, sorry about that!)
 
 Credit to a friend for allowing me to train on their server!
+
+Let me know if you have any questions!!!
