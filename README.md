@@ -8,7 +8,7 @@ PySR was used as the symbolic regrression module, altough I could have saved tim
 
 In order to play, please download all files, and run C++ on it by compiling both .cpp files and running it. I am doing this because I dont think putting .exe's here is safe. I will link this as my project demo. 
 
-IMPORTANT: UI only works on linux, it can work on windows with a few more lines, but that wont work on linux, so I am trying to find a way for it to work on both. It uses unicode charecters to print onto terminal.
+Download windows for windows, and linux for linux, I have not tested anything on mac, if you are playing on mac (or other os), let me know if it works or not!
 
 Default mode is set to normal, hand crafted evaluation, in order to change it to Symbolic, simply change evaluate function to use SymbolicEval instead of SimpleEval (I will make it more user friendly soon, sorry about that!)
 
