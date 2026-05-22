@@ -23,7 +23,7 @@ Let me know if you have any questions!!!
 
 
 #  HOW IT WORKS
-Chess engines use many algorithems inorder to efficently be able to play chess.
+Chess engines use many algorithms in order to efficently be able to play chess.
 I will start of by explaining move generation.
 
 Move generation in chess is mostly thought of as a 2d array with numbers representing pieces, atleast from what people around me thought. The real way too achieve blazing speeds is too use bitwise operators on integers. All integers are represented in binary on computers, binary is just 0s and 1s. Bitwise operators are kind of like ands, ors, nots, xors, xnors, etc. They are even called the same with just bitwise infront of it! Bit wise operators, takes to pieces of binary and treats each 1, as true, and 0 as false. And it compares 2 of theese integers, at the same index, and returns a new piece of binary with each 0 and 1 for every index, with the operator applied. So why do we use this in chess?? Bitwise operators are incredibly fast, and can be preformed millions of times per second on mordern cpus.
