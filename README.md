@@ -15,14 +15,14 @@ An open source chess engine, that uses **Symbolic Regression** to reverse engine
 
 ## Demo
 ### Windows:
- ```
-bash git clone https://github.com/Ishaan-Maheshkumar/ChessSR.git
+ ```bash
+git clone https://github.com/Ishaan-Maheshkumar/ChessSR.git
 cd ChessSR
 g++ WindowsFinalChess.cpp magics.cpp -O2 -std=c++17 -o chesssr
 ./chesssr
 ```
 ### Linux:
-```
+```bash
 git clone https://github.com/Ishaan-Maheshkumar/ChessSR.git
 cd ChessSR
 g++ LinuxFinalChess.cpp magics.cpp -O2 -std=c++17 -o chesssr
