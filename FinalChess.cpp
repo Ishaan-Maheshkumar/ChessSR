@@ -2718,4 +2718,10 @@ else{
 
     }
 }
+int b=0;
+std::cout<<"Enter any number to quit.";
+while(b==0){
+    std::cin>>b;
+
+}
 }
