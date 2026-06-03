@@ -6,7 +6,9 @@
 #include "magics.h"
 #include <cstring>
 #include <string>
+#ifdef _WIN32
 #include <windows.h>
+#endif
 #include <thread>
 #include <atomic>
 #include <mutex>
@@ -2614,12 +2616,14 @@ int main() {
     std::cout<<"Start"<<endl;
     Board board;
     board.initBoard();
+#ifdef _WIN32
  SetConsoleOutputCP(CP_UTF8);
 HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
 DWORD dwMode = 0;
 GetConsoleMode(hOut, &dwMode);
 SetConsoleMode(hOut, dwMode | ENABLE_VIRTUAL_TERMINAL_PROCESSING);
-    //board.initMagics(13,11);
+#endif    
+//board.initMagics(13,11);
     //board.printMagics();
     //board.initMagicNumsAndShifts();
     //board.printBB(board.rookAttackTable[63][board.magicIndex(board.rookTable[63].magic,board.all_pieces&board.rookTable[63].mask,board.rookTable[63].shift)]);
